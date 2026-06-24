@@ -24,6 +24,47 @@ tmp/
 temp/
 *.tmp
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
 # OS / editor files
 .DS_Store
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Data files
+data/
+*.csv
+*.parquet
+*.json
+
+# Large files
+*.tar.gz
+*.zip
+dist/
+*.whl

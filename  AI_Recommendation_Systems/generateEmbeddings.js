@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { HfInference } from "@huggingface/inference";
 
 const hfToken = process.env.HF_TOKEN;
